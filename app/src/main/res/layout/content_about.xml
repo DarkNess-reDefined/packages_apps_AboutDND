@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dnd.aboutdnd.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:paddingBottom="15dp">
+
+        <!--About text card-->
+        <android.support.v7.widget.CardView
+            android:id="@+id/aboutDND"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/cards_padding"
+            card_view:cardBackgroundColor="@color/cardsbg"
+            card_view:cardElevation="@dimen/cards_elevation">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/cards_margin">
+
+                <TextView
+                    android:id="@+id/aboutdnd_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:gravity="fill_horizontal"
+                    android:layout_margin="@dimen/cards_text_margin"
+                    android:text="@string/avout_dnd"
+                    android:textColor="@color/grey_800"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:id="@+id/aboutdnd_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/aboutdnd_text"
+                    android:layout_margin="@dimen/cards_text_margin"
+                    android:text="@string/avout_dnd_1"
+                    android:textColor="@color/grey_800"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:id="@+id/aboutdnd_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/aboutdnd_text2"
+                    android:layout_margin="@dimen/cards_text_margin"
+                    android:text="@string/avout_dnd_2"
+                    android:textColor="@color/grey_800"
+                    android:textSize="@dimen/text_small" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_weight="0.74"
+            android:background="@color/grey_300" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="@dimen/content_inset"
+            android:paddingRight="@dimen/content_inset"
+            android:text="@string/update_title"
+            android:textColor="@color/blue_600"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!--OTA card-->
+        <!--<android.support.v7.widget.CardView
+            android:id="@+id/dndOTACard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/cards_padding"
+            card_view:cardBackgroundColor="@color/cardsbg">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/cards_margin">
+
+                <TextView
+                    android:id="@+id/dndOTA_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="@dimen/cards_text_margin"
+                    android:gravity="fill_horizontal"
+                    android:text="System Update"
+                    android:textColor="@color/grey_400"
+                    android:textSize="@dimen/text_small" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>-->
+
+        <!--Changelog card-->
+        <android.support.v7.widget.CardView
+            android:id="@+id/changeLogCard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            android:clickable="true"
+            android:onClick="underDevelopment"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/cards_padding"
+            card_view:cardBackgroundColor="@color/cardsbg">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/cards_margin">
+
+                <TextView
+                    android:id="@+id/changeLogText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="@dimen/cards_text_margin"
+                    android:gravity="fill_horizontal"
+                    android:text="@string/dndChangeLog"
+                    android:textColor="@color/grey_600"
+                    android:textSize="@dimen/text_small" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_weight="0.74"
+            android:background="@color/grey_300" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="@dimen/content_inset"
+            android:paddingRight="@dimen/content_inset"
+            android:text="@string/social_title"
+            android:textColor="@color/blue_600"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!--DND G+ Link-->
+        <android.support.v7.widget.CardView
+            android:id="@+id/dndGPlusCard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            android:clickable="true"
+            android:onClick="underDevelopment"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/cards_padding"
+            card_view:cardBackgroundColor="@color/cardsbg">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/cards_margin">
+
+                <TextView
+                    android:id="@+id/dndGPlusCardText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="@dimen/cards_text_margin"
+                    android:gravity="fill_horizontal"
+                    android:text="@string/dndGPlus"
+                    android:textColor="@color/grey_600"
+                    android:textSize="@dimen/text_small" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <!--DND Facebook-->
+        <android.support.v7.widget.CardView
+            android:id="@+id/aboutDND2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            android:clickable="true"
+            android:onClick="underDevelopment"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/cards_padding"
+            card_view:cardBackgroundColor="@color/cardsbg">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/cards_margin">
+
+                <TextView
+                    android:id="@+id/aboutDND_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="@dimen/cards_text_margin"
+                    android:gravity="fill_horizontal"
+                    android:text="@string/dndFb"
+                    android:textColor="@color/grey_600"
+                    android:textSize="@dimen/text_small" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <!--DND Telegram-->
+        <android.support.v7.widget.CardView
+            android:id="@+id/aboutDND3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            android:clickable="true"
+            android:onClick="underDevelopment"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/cards_padding"
+            card_view:cardBackgroundColor="@color/cardsbg">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/cards_margin">
+
+                <TextView
+                    android:id="@+id/aboutDND_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="@dimen/cards_text_margin"
+                    android:gravity="fill_horizontal"
+                    android:text="@string/dndTelegram"
+                    android:textColor="@color/grey_600"
+                    android:textSize="@dimen/text_small" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

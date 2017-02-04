@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">About DND</string>
+    <string name="dnd_github">https://github.com/DarkNess-reDefined</string>
+    <string name="leader_title">Team Leaders</string>
+    <string name="contributers_title">Development Contributors</string>
+    <string name="github">Github</string>
+    <string name="gplus">Google Plus</string>
+    <string name="update_title">Updates</string>
+    <string name="social_title">Social</string>
+    <string name="dndChangeLog">DND Change Log</string>
+    <string name="dndGPlus">DND Google Plus</string>
+    <string name="dndFb">DND Facebook</string>
+    <string name="dndTelegram">DND Telegram</string>
+    <string name="avout_dnd">DarkNess reDefined is curated to show everyone the power of darkness. The word darkness might sound paranoid but it isn\'t, Darkness is the element that gives you the sense of light in the first place. That being it, DarkNess reDefined comes with a dark nougat flavor and a royal red accent. Its made to deliver performance and stability in a balance along with features you\'ll need daily to ease your mobile experience. We just kept them minimal so as to keep it unbloated and fast.</string>
+    <string name="avout_dnd_1">Enough of talking, I hope you\'ll enjoy our work and we\'d love keep bringing new things to table :)</string>
+    <string name="avout_dnd_2">\nLet the DarkNess reDefine you !</string>
+
+    <!--Dev Names-->
+    <string name="AKabhishek_name">Abhishek Kaushik</string>
+    <string name="DarkKnight6499_name">Yazad Madan</string>
+    <string name="kishpatel1998_name">Kishan Patel</string>
+    <string name="rk2810_name">Rohan Khurana</string>
+    <string name="iammanojrocker_name">Manoj P</string>
+
+    <!--Dev IDs-->
+    <string name="AKabhishek_ID">AKabhishek</string>
+    <string name="DarkKnight6499_ID">DarkKnight6499</string>
+    <string name="kishpatel1998_ID">kishpatel1998</string>
+    <string name="rk2810_ID">fsociety28</string>
+    <string name="iammanojrocker_ID">TheDarkStrix</string>
+
+    <!--Dev stats-->
+    <string name="founder_stat">Founder • Developer</string>
+    <string name="designer_stat">Designer • Developer</string>
+    <string name="Social_stat">Developer • Social stuff Maintainer</string>
+</resources>
