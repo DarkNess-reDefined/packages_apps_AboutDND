@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:card_view="http://schemas.android.com/tools"
     xmlns:tools="http://schemas.android.com/tools"
@@ -304,7 +305,8 @@
             android:textStyle="bold" />
 
         <!--kishpatel1998-->
-        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        <android.support.v7.widget.CardView 
+		    xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:card_view="http://schemas.android.com/tools"
             xmlns:tools="http://schemas.android.com/tools"
@@ -422,7 +424,8 @@
         </android.support.v7.widget.CardView>
 
         <!--rk2810-->
-        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        <android.support.v7.widget.CardView 
+		    xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:card_view="http://schemas.android.com/tools"
             xmlns:tools="http://schemas.android.com/tools"
@@ -528,7 +531,7 @@
                                 android:minHeight="50dp"
                                 android:onClick="rohanKhuranaGit"
                                 android:textColor="@color/blue_A400"
-                                android:text="Github" />
+                                android:text="@string/github" />
 
                             <Button
                                 android:id="@+id/gplus_button4"
@@ -539,7 +542,7 @@
                                 android:minHeight="50dp"
                                 android:onClick="rohanKhuranaGPlus"
                                 android:textColor="@color/red_400"
-                                android:text="Google Plus" />
+                                android:text="@string/gplus" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -550,8 +553,9 @@
 
         </android.support.v7.widget.CardView>
 
-        <!--iammanojrocker-->
-        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        <!--TheDarkStrix-->
+        <android.support.v7.widget.CardView 
+		    xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:card_view="http://schemas.android.com/tools"
             xmlns:tools="http://schemas.android.com/tools"

@@ -47,7 +47,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Redmi Note 3 (kenzo)"
+                    android:text="@string/kenzo"
                     android:layout_marginLeft="10dp"
                     android:textStyle="bold"
                     android:textSize="20sp"
@@ -58,7 +58,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="iammanojrocker • AKabhishek"
+                    android:text="@string/kenzo_maintainer"
                     android:layout_marginLeft="10dp"
                     android:textSize="18sp"
                     android:layout_gravity="center_vertical" />

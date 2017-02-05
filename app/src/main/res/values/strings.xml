@@ -33,4 +33,8 @@
     <string name="founder_stat">Founder • Developer</string>
     <string name="designer_stat">Designer • Developer</string>
     <string name="Social_stat">Developer • Social stuff Maintainer</string>
+	
+	<!--Official Devices-->
+    <string name="kenzo">Redmi Note 3 (kenzo)</string>
+    <string name="kenzo_maintainer">TheDarkStrix • AKabhishek</string>
 </resources>
