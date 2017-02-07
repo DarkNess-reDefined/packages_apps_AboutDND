@@ -95,6 +95,18 @@ public class MainActivity extends AppCompatActivity {
     public void underDevelopment(View view) {
         Snackbar.make(view, "Feature is Under Development", Snackbar.LENGTH_SHORT).show();
     }
+	
+	public void darknessGPlus(View view) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("https://plus.google.com/u/3/communities/102951559675870137271"));
+        try {
+            startActivity(intent);
+        } catch (ActivityNotFoundException e) {
+            Snackbar.make(coordinatorLayout,"Please install a browser and try again", Snackbar.LENGTH_LONG).show();
+        }
+    }
+	
     public void akAbhishekGit(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
