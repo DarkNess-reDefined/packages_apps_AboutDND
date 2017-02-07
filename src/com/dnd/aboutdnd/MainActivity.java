@@ -107,6 +107,17 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 	
+	public void darknessTelegram(View view) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("https://t.me/DarknessReDefined"));
+        try {
+            startActivity(intent);
+        } catch (ActivityNotFoundException e) {
+            Snackbar.make(coordinatorLayout,"Please install a browser and try again", Snackbar.LENGTH_LONG).show();
+        }
+    }
+	
     public void akAbhishekGit(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
