@@ -14,6 +14,8 @@
     <string name="avout_dnd">DarkNess reDefined is curated to show everyone the power of darkness. The word darkness might sound paranoid but it isn\'t, Darkness is the element that gives you the sense of light in the first place. Its made to deliver performance and stability in a balance along with features you\'ll need daily to ease your mobile experience. We just kept them minimal so as to keep it unbloated and fast.</string>
     <string name="avout_dnd_1">Enough of talking, I hope you\'ll enjoy our work and we\'d love keep bringing new things to table :)</string>
     <string name="avout_dnd_2">\nLet the DarkNess reDefine you !</string>
+    <string name="dnd_changelog">https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_documentation/changelogs/changelog.txt</string>
+    <string name="no_Internet">Can not access without a internet connection</string>
 
     <!--Dev Names-->
     <string name="AKabhishek_name">Abhishek Kaushik</string>
