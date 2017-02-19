@@ -16,6 +16,7 @@
     <string name="avout_dnd_2">\nLet the DarkNess reDefine you !</string>
     <string name="dnd_changelog">https://raw.githubusercontent.com/Darkness-reDefined/reDefinition_documentation/changelogs/changelog.txt</string>
     <string name="no_Internet">Can not access without a internet connection</string>
+	<string name="changelog">changelog</string>
 
     <!--Dev Names-->
     <string name="AKabhishek_name">Abhishek Kaushik</string>
