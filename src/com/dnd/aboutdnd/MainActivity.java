@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
     CoordinatorLayout coordinatorLayout;
     ProgressDialog mProgressDialog;
     PowerManager.WakeLock mWakeLock;
+    private final String LOG_DIR = "/data/data/com.dnd.aboutdnd/cache/changeLog.txt";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -299,7 +300,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     String strLine="";
                     log = new StringBuilder();
-                    FileReader fReader = new FileReader(context.getCacheDir().getPath() + "/changeLog.txt");
+                    FileReader fReader = new FileReader(LOG_DIR);
                     BufferedReader bReader = new BufferedReader(fReader);
 
                     /** Reading the contents of the file , line by line */
@@ -337,8 +338,7 @@ public class MainActivity extends AppCompatActivity {
                 // download the file
                 input = connection.getInputStream();
                 File outputDir = context.getCacheDir();
-                File outputFile = File.createTempFile("changeLog", "txt", outputDir);
-                output = new FileOutputStream(outputFile);
+                output = new FileOutputStream(LOG_DIR);
 
                 byte data[] = new byte[4096];
                 long total = 0;
