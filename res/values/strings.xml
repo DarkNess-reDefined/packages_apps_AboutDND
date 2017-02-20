@@ -39,7 +39,7 @@
 	
 	<!--Official Devices-->
     <string name="kenzo_device">Redmi Note 3 (kenzo)</string>
-    <string name="kenzo_maintainer">Monoj P (TheDarkStrix)</string>
+    <string name="kenzo_maintainer">Manoj P (TheDarkStrix)</string>
 	<string name="bacon_device">One Plus One (bacon)</string>
     <string name="bacon_maintainer">Kishan Patel (kishpatel19)</string>
 	<string name="onyx_device">OnePlus X (onyx)</string>
