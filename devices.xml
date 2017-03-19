@@ -48,4 +48,28 @@
         <dev>Tanuj Rao (tansanrao)</dev>
         <xda>http://forums.yuplaygod.com/threads/official-7-1-1_r9-darkness-redefined-v1-0-13-02-volte.47515</xda>
     </device> 
+    <device> 
+        <name>LeEco Le 2</name>
+        <id>x526</id>
+        <dev>Rohit Jaiswal (rohitjaiswal)</dev>
+        <xda>https://forum.xda-developers.com/le-2/development/rom-darkness-redefined-t3561982</xda>
+    </device> 
+    <device> 
+        <name>Zuk Z2/Zuk Z2 plus</name>
+        <id>z2/z2_plus</id>
+        <dev>Davide Garberi (DD3Boh)</dev>
+        <xda>http://zukfans.eu/community/threads/darkness-redefined-nougat-7-1-1-by-dd3boh-volte-official-oms.5453</xda>
+    </device> 
+    <device> 
+        <name>OnePlus 2</name>
+        <id>oneplus2</id>
+        <dev>Subham Padhi</dev>
+        <xda>https://forum.xda-developers.com/oneplus-2/development/rom-darkness-redefined-t3569608</xda>
+    </device> 
+    <device> 
+        <name>Xiaomi Redmi 1S</name>
+        <id>armani</id>
+        <dev>Tanay Singh (neonkat)</dev>
+        <xda>https://forum.xda-developers.com/redmi-1s/development/rom-darkness-redefined-t3572397</xda>
+    </device>
 </devices>
