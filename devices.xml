@@ -2,47 +2,50 @@
 <devices>
     <!--<device> 
         <name>Device Name</name>
+        <id>Device ID</id>
         <dev>Device Maintainer</dev>
-        <xda>Xda Thread Link (optional)</xda>
+        <xda>Xda Thread Link</xda>
     </device> -->
     <device> 
-        <name>Redmi Note 3 (kenzo)</name>
+        <name>Redmi Note 3</name>
+        <id>kenzo</id>
         <dev>Manoj P (TheDarkStrix)</dev>
-        <xda></xda>
+        <xda>https://forum.xda-developers.com/redmi-note-3/development/rom-darkness-redefined-t3555228</xda>
     </device> 
     <device> 
-        <name>One Plus One (bacon)</name>
+        <name>One Plus One</name>
+        <id>bacon</id>
         <dev>Kishan Patel (kishpatel19)</dev>
-        <xda></xda>
+        <xda>https://forum.xda-developers.com/oneplus-one/development/rom-darkness-redefined-t3552945</xda>
     </device> 
     <device> 
-        <name>OnePlus X (onyx)</name>
-        <dev>Joshwin Aranha (marshmello)</dev>
-        <xda></xda>
-    </device> 
-    <device> 
-        <name>Xiaomi Mi 3 / Xiaomi Mi 4 (cancro)</name>
+        <name>Xiaomi Mi 3 / Xiaomi Mi 4</name>
+        <id>cancro</id>
         <dev>Cosmo Kramer (nero_d)</dev>
-        <xda></xda>
+        <xda>https://forum.xda-developers.com/xiaomi-mi-3/development/rom-darkness-redefined-t3554637</xda>
     </device> 
     <device> 
-        <name>Lenovo Zuk z1 (ham)</name>
+        <name>Lenovo Zuk z1</name>
+        <id>ham</id>
         <dev>Jai Acharya (TechMashido)</dev>
-        <xda></xda>
+        <xda>https://forum.xda-developers.com/zuk-z1/orig-development/rom-darkness-redefined-v1-0-radioactive-t3554268</xda>
     </device> 
     <device> 
-        <name>Xiaomi Mi 5 (gemini)</name>
+        <name>Xiaomi Mi 5</name>
+        <id>gemini</id>
         <dev>Rohan Khurana (Fsociety28)</dev>
-        <xda></xda>
+        <xda>https://forum.xda-developers.com/mi-5/development/official-oms-dui-t3554497</xda>
     </device> 
     <device> 
-        <name>Asus Zenfone 2 Laser (z00l)</name>
+        <name>Asus Zenfone 2 Laser</name>
+        <id>z00l</id>
         <dev>Abhishek Kaushik (AKabhishek)</dev>
-        <xda></xda>
+        <xda>https://forum.xda-developers.com/zenfone-2-laser/development/rom-darkness-redefined-z00l-t3553602</xda>
     </device> 
     <device> 
-        <name>YU Yuphoria (lettuce)</name>
+        <name>YU Yuphoria</name>
+        <id>lettuce</id>
         <dev>Tanuj Rao (tansanrao)</dev>
-        <xda></xda>
+        <xda>http://forums.yuplaygod.com/threads/official-7-1-1_r9-darkness-redefined-v1-0-13-02-volte.47515</xda>
     </device> 
 </devices>
