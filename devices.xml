@@ -72,4 +72,10 @@
         <dev>Tanay Singh (neonkat)</dev>
         <xda>https://forum.xda-developers.com/redmi-1s/development/rom-darkness-redefined-t3572397</xda>
     </device>
+    <device> 
+        <name>Xiaomi Redmi Note 4</name>
+        <id>mido</id>
+        <dev>Tirth Patel (thp@1997)</dev>
+        <xda>https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-darkness-redefined-t3575527</xda>
+    </device>
 </devices>
