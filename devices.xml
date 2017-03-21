@@ -6,6 +6,7 @@
         <dev>Device Maintainer</dev>
         <xda>Xda Thread Link</xda>
     </device> -->
+    <!--XIAOMI DEVICES-->
     <device> 
         <name>Xiaomi Redmi Note 3</name>
         <id>kenzo</id>
@@ -37,6 +38,13 @@
         <xda>https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-darkness-redefined-t3575527</xda>
     </device>
     <device> 
+        <name>Mi Max</name>
+        <id>hydrogen</id>
+        <dev>Ace Aggarwal (aggarwalace)</dev>
+        <xda>https://forum.xda-developers.com/mi-max/development/7-1-1-darkness-redefined-rom-t3575491</xda>
+    </device>
+    <!--ONEPLUS DEVICES-->
+    <device> 
         <name>One Plus One</name>
         <id>bacon</id>
         <dev>Kishan Patel (kishpatel19)</dev>
@@ -48,6 +56,7 @@
         <dev>Subham Padhi</dev>
         <xda>https://forum.xda-developers.com/oneplus-2/development/rom-darkness-redefined-t3569608</xda>
     </device> 
+    <!--LENOVO DEVICES-->
     <device> 
         <name>Lenovo Zuk z1</name>
         <id>ham</id>
@@ -60,28 +69,25 @@
         <dev>Davide Garberi (DD3Boh)</dev>
         <xda>http://zukfans.eu/community/threads/darkness-redefined-nougat-7-1-1-by-dd3boh-volte-official-oms.5453</xda>
     </device> 
+    <!--ASUS DEVICES-->
     <device> 
         <name>Asus Zenfone 2 Laser</name>
         <id>z00l</id>
         <dev>Abhishek Kaushik (AKabhishek)</dev>
         <xda>https://forum.xda-developers.com/zenfone-2-laser/development/rom-darkness-redefined-z00l-t3553602</xda>
     </device> 
+    <!--YU DEVICES-->
     <device> 
         <name>YU Yuphoria</name>
         <id>lettuce</id>
         <dev>Tanuj Rao (tansanrao)</dev>
         <xda>http://forums.yuplaygod.com/threads/official-7-1-1_r9-darkness-redefined-v1-0-13-02-volte.47515</xda>
     </device> 
+    <!--LEECO DEVICES-->
     <device> 
         <name>LeEco Le 2</name>
         <id>x526</id>
         <dev>Rohit Jaiswal (rohitjaiswal)</dev>
         <xda>https://forum.xda-developers.com/le-2/development/rom-darkness-redefined-t3561982</xda>
     </device> 
-    <device> 
-        <name>Mi Max</name>
-        <id>hydrogen</id>
-        <dev>Ace Aggarwal (aggarwalace)</dev>
-        <xda>https://forum.xda-developers.com/mi-max/development/7-1-1-darkness-redefined-rom-t3575491</xda>
-    </device>
 </devices>
