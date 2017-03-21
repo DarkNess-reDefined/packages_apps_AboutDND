@@ -78,4 +78,10 @@
         <dev>Rohit Jaiswal (rohitjaiswal)</dev>
         <xda>https://forum.xda-developers.com/le-2/development/rom-darkness-redefined-t3561982</xda>
     </device> 
+    <device> 
+        <name>Mi Max</name>
+        <id>hydrogen</id>
+        <dev>Ace Aggarwal (aggarwalace)</dev>
+        <xda>https://forum.xda-developers.com/mi-max/development/7-1-1-darkness-redefined-rom-t3575491</xda>
+    </device>
 </devices>
