@@ -88,6 +88,24 @@
         <dev>Tanuj Rao (tansanrao)</dev>
         <xda>https://forum.xda-developers.com/moto-g-2014/development/rom-darkness-redefined-v1-3-t3579249</xda>
     </device>
+    <device> 
+        <name>Moto Z</name>
+        <id>griffin</id>
+        <dev>Rodrigo Schunk (rkschunk)</dev>
+        <xda>https://forum.xda-developers.com/moto-z/development/rom-darkness-redefined-1-3-t3582131</xda>
+    </device>
+    <device> 
+        <name>Moto Z Play</name>
+        <id>addison</id>
+        <dev>Rodrigo Schunk (rkschunk)</dev>
+        <xda>https://forum.xda-developers.com/moto-z-play/development/rom-darkness-redefined-1-3-oms-dui-t3581033</xda>
+    </device>
+    <device> 
+        <name>Moto G5 Plus</name>
+        <id>potter</id>
+        <dev>Rodrigo Schunk (rkschunk)</dev>
+        <xda>https://forum.xda-developers.com/g5-plus/development/rom-darkness-redefined-1-4-t3600812</xda>
+    </device>
     <!--ASUS DEVICES-->
     <device> 
         <name>Asus Zenfone 2 Laser</name>
