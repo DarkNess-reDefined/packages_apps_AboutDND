@@ -106,6 +106,18 @@
         <dev>Rodrigo Schunk (rkschunk)</dev>
         <xda>https://forum.xda-developers.com/g5-plus/development/rom-darkness-redefined-1-4-t3600812</xda>
     </device>
+    <device> 
+        <name>Moto G 2014 LTE</name>
+        <id>thea</id>
+        <dev>Rodrigo Schunk (rkschunk)</dev>
+        <xda>https://forum.xda-developers.com/moto-g-lte/development/rom-darkness-redefined-1-4-t3601961</xda>
+    </device>
+    <device> 
+        <name>Moto G 2013</name>
+        <id>falcon</id>
+        <dev>Rodrigo Schunk (rkschunk)</dev>
+        <xda>https://forum.xda-developers.com/moto-g/orig-development/rom-darkness-redefined-1-4-t3601971</xda>
+    </device>
     <!--ASUS DEVICES-->
     <device> 
         <name>Asus Zenfone 2 Laser</name>
