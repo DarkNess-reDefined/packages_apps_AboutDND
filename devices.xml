@@ -58,12 +58,6 @@
     </device> 
     <!--LENOVO DEVICES-->
     <device> 
-        <name>Lenovo Zuk z1</name>
-        <id>ham</id>
-        <dev>Jai Acharya (TechMashido)</dev>
-        <xda>https://forum.xda-developers.com/zuk-z1/orig-development/rom-darkness-redefined-v1-0-radioactive-t3554268</xda>
-    </device> 
-    <device> 
         <name>Lenovo Zuk Z2/Zuk Z2 plus</name>
         <id>z2/z2_plus</id>
         <dev>Davide Garberi (DD3Boh)</dev>
