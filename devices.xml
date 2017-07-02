@@ -49,13 +49,7 @@
         <id>bacon</id>
         <dev>Kishan Patel (kishpatel19)</dev>
         <xda>https://forum.xda-developers.com/oneplus-one/development/rom-darkness-redefined-t3552945</xda>
-    </device> 
-    <device> 
-        <name>OnePlus 2</name>
-        <id>oneplus2</id>
-        <dev>Subham Padhi</dev>
-        <xda>https://forum.xda-developers.com/oneplus-2/development/rom-darkness-redefined-t3569608</xda>
-    </device> 
+    </device>
     <!--LENOVO DEVICES-->
     <device> 
         <name>Lenovo Zuk Z2/Zuk Z2 plus</name>
