@@ -133,4 +133,11 @@
         <dev>Rohit Jaiswal (rohitjaiswal)</dev>
         <xda>https://forum.xda-developers.com/le-2/development/rom-darkness-redefined-t3561982</xda>
     </device> 
+    <!--ZUK DEVICES-->
+    <device> 
+        <name>ZUK Z1</name>
+        <id>ham</id>
+        <dev>Anush Madathumkara (ThuGnessReDefined)</dev>
+        <xda>https://forum.xda-developers.com/zuk-z1/orig-development/rom-darkness-redefined-v1-0-radioactive-t3554268</xda>
+    </device> 
 </devices>
