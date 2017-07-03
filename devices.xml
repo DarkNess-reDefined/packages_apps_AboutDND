@@ -58,6 +58,12 @@
         <xda>http://zukfans.eu/community/threads/darkness-redefined-nougat-7-1-1-by-dd3boh-volte-official-oms.5453</xda>
     </device>  
     <device> 
+        <name>Lenovo ZUK Z1</name>
+        <id>ham</id>
+        <dev>Anush Madathumkara (ThuGnessReDefined)</dev>
+        <xda>https://forum.xda-developers.com/zuk-z1/orig-development/rom-darkness-redefined-v1-0-radioactive-t3554268</xda>
+    </device> 
+    <device> 
         <name>Lenovo K3 note</name>
         <id>aio_otfp</id>
         <dev>Ninad Patil (PainKiller3)</dev>
@@ -133,11 +139,11 @@
         <dev>Rohit Jaiswal (rohitjaiswal)</dev>
         <xda>https://forum.xda-developers.com/le-2/development/rom-darkness-redefined-t3561982</xda>
     </device> 
-    <!--ZUK DEVICES-->
+    <!--SAMSUNG DEVICES-->
     <device> 
-        <name>ZUK Z1</name>
-        <id>ham</id>
-        <dev>Anush Madathumkara (ThuGnessReDefined)</dev>
-        <xda>https://forum.xda-developers.com/zuk-z1/orig-development/rom-darkness-redefined-v1-0-radioactive-t3554268</xda>
+        <name>Samsung Galaxy S4 mini</name>
+        <id>serrano</id>
+        <dev>Prajapati Pravin (Harvey_Spectar)</dev>
+        <xda>https://forum.xda-developers.com/galaxy-s4-mini/development/rom-darkness-redefined-t3627213</xda>
     </device> 
 </devices>
