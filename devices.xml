@@ -43,6 +43,12 @@
         <dev>Ace Aggarwal (aggarwalace)</dev>
         <xda>https://forum.xda-developers.com/mi-max/development/7-1-1-darkness-redefined-rom-t3575491</xda>
     </device>
+    <device> 
+        <name>Redmi 2</name>
+        <id>Wt88047</id>
+        <dev>Ayush Dubey (Ayushd70)</dev>
+        <xda>https://forum.xda-developers.com/redmi-2/development/rom-darkness-redefined-t3626957</xda>
+    </device>
     <!--ONEPLUS DEVICES-->
     <device> 
         <name>One Plus One</name>
