@@ -152,4 +152,11 @@
         <dev>Prajapati Pravin (Harvey_Spectar)</dev>
         <xda>https://forum.xda-developers.com/galaxy-s4-mini/development/rom-darkness-redefined-t3627213</xda>
     </device> 
+    <!--HUAWEI DEVICES-->
+    <device> 
+        <name>Huawei Honor 5X</name>
+        <id>kiwi</id>
+        <dev> Mumit Ahmed (mumith3) </dev>
+        <xda>https://forum.xda-developers.com/honor-5x/development/rom-darkness-redefined-t3588008</xda>
+    </device> 
 </devices>
