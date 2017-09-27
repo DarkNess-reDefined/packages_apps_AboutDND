@@ -49,6 +49,12 @@
         <dev>Ayush Dubey (Ayushd70)</dev>
         <xda>https://forum.xda-developers.com/redmi-2/development/rom-darkness-redefined-t3626957</xda>
     </device>
+    <device> 
+        <name>Xiaomi Redmi 3S</name>
+        <id>Land</id>
+        <dev>Tanmay Gupta(XiaomiDev)</dev>
+        <xda>https://forum.xda-developers.com/xiaomi-redmi-3s/development/rom-darkness-redefined-t3653503</xda>
+    </device> 
     <!--ONEPLUS DEVICES-->
     <device> 
         <name>One Plus One</name>
